@@ -1,7 +1,7 @@
 "features": [
   {
     "type": "REGION",
-    "category": "ANTIBODY",
+    "category": "REGION",
     "begin": "9",
     "end": "100"
   }
