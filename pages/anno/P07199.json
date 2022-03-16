@@ -1,6 +1,6 @@
 "features": [
   {
-    "type": "ANTIBODY",
+    "type": {"name":"REGION","label":"region of antibody"}
     "category": "ANTIBODY",
     "begin": "9",
     "end": "100"
