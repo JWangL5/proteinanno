@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="../protvista/protvista.js"></script>
+		<link href="../protvista/protvista.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id='yourDiv'/>
+		<script>
+			window.onload = function() {
+				var yourDiv = document.getElementById('yourDiv');
+				var ProtVista = require('ProtVista');
+				var instance = new ProtVista({
+					el: yourDiv,
+					uniprotacc: 'P07199'
+				});
+			}
+		</script>
+	</body>
+</html>
