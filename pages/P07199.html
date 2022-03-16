@@ -15,11 +15,8 @@
 				var instance = new ProtVista({
 					el: yourDiv,
 					uniprotacc: 'P07199',
-					exclusions: ['MOLECULE_PROCESSING', 'SEQUENCE_INFORMATION', 'STRUCTURAL', 'TOPOLOGY', 'MUTAGENESIS', 'PROTEOMICS and VARIATION'],
-					//Default sources will be included (even if this option is omitted)
+					exclusions: ['MOLECULE_PROCESSING', 'SEQUENCE_INFORMATION', 'STRUCTURAL', 'TOPOLOGY', 'MUTAGENESIS', 'PROTEOMICS', 'VARIATION'],
 					defaultSources: true,
-
-					//Your data sources are defined here
 					customDataSource: {
 						url: './anno/P07199.json',
 						source: 'LJW',
