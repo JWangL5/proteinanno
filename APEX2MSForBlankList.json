@@ -1,0 +1,13 @@
+{
+	"file": "https://raw.githubusercontent.com/l392537594/proteinanno/main/Apex2colUpsetDigarmData.csv",
+	"name": "APEX2MSForBlankList",
+	"header": 0,
+	"separator": ",",
+	"skip": 0,
+	"meta": [
+		{ "type": "gene_id", "index": 0, "name": "Gene_ID" }
+	],
+	"sets": [
+		{ "format": "binary", "start": 1, "end": 8 }
+	]
+}
